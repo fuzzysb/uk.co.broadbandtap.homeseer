@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/HomeSeer",
+      "Name": "StreamDeck HomeSeer Action",
+      "States": [
+        {
+          "Image": "Images/HomeSeer",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "StreamDeck HomeSeer Action",
+      "UUID": "uk.co.broadbandtap.homeseer.pluginaction",
+      "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
+    }
+  ],
+  "Author": "Broadband Tap Ltd",
+  "Name": "StreamDeck HomeSeer",
+  "Description": "Application to send and receive status of HomeSeer Smart Home Devices",
+  "Icon": "Images/HomeSeer",
+  "URL": "http://www.broadbandtap.co.uk",
+  "Version": "1.0",
+  "CodePath": "uk.co.broadbandtap.homeseer",
+  "Category": "Custom",
+  "CategoryIcon": "Images/HomeSeer",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.3"
+  }
+}
